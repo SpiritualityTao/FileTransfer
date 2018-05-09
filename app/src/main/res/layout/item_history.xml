@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/item_bg"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/iv_his_icon"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:padding="6dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <LinearLayout
+        android:layout_toRightOf="@id/iv_his_icon"
+        android:padding="6dp"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="65dp">
+        <TextView
+            android:maxLines="1"
+            android:id="@+id/tv_his_name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"/>
+
+
+        <TextView
+            android:id="@+id/tv_his_size"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:textColor="@color/darker_gray"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/tv_his_time"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:textColor="@color/darker_gray"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:id="@+id/tv_actionType"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="接收"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:id="@+id/tv_actionName"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="接收"/>
+
+    </LinearLayout>
+</LinearLayout>

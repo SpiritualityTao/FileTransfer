@@ -1,0 +1,66 @@
+<resources>
+    <!-- MainActivity -->
+    <string name="app_name">面对面快传</string>
+    <string name="str_send">发文件</string>
+    <string name="str_receive">收文件</string>
+    <string name="str_instruction">无需网络，不耗流量，极速秒传！</string>
+    <string name="str_recent_file">最近文件</string>
+    <!-- FileChooseActivity -->
+    <string name="str_mobile_file">本机文件</string>
+    <string name="str_all_file">全部文件</string>
+    <string name="str_preview">预览</string>
+    <string name="str_ok">确定</string>
+    <string name="str_warn">请于对方保持近距离</string>
+    <!-- SenderWatingActivity -->
+    <string name="default_ssid">XD_HOTSPOT</string>
+    <string name="str_back">返回</string>
+    <string name="str_wait_des">请对方打开快传，选择接受...</string>
+    <string name="str_send_file_des">点击头像发送文件</string>
+    <string name="str_search_approach">搜索附近</string>
+    <string name="str_qrcode_send">二维码发送</string>
+    <string name="str_wait_error">连接已关闭，请刷新重试</string>
+    <string name="str_refresh">刷新</string>
+
+    <!-- ReceiverWatingActivity -->
+    <string name="str_wait_des1">请对方打开快传，选择发送...</string>
+    <string name="str_wait_send_des">发现设备，等待对方发送</string>
+    <string name="str_qrcode_receive">扫码接收</string>
+    <string name="title_activity_file">FileActivity</string>
+    <string name="str_open_wifi">开启WiFi</string>
+    <!--SendFileActivity -->
+    <string name="str_send_title">免流量传输</string>
+    <string name="str_file_list_send">发送的文件列表</string>
+    <string name="str_continue_send">继续发送</string>
+    <!--ReceiveFileActivity-->
+    <string name="str_file_list_receive">接受的文件列表</string>
+
+    <string name="str_apk">APK</string>
+    <string name="str_jpeg">JPEG</string>
+    <string name="str_mp3">MP3</string>
+    <string name="str_mp4">MP4</string>
+    <string name="str_apk_desc">应用</string>
+    <string name="str_jpeg_desc">图片</string>
+    <string name="str_mp3_desc">音乐</string>
+    <string name="str_mp4_desc">视频</string>
+    <string name="str_word_desc">WORD</string>
+    <string name="str_pdf_desc">PDF</string>
+
+
+    <string name="action_server">我要接收</string>
+    <string name="action_apk">apk</string>
+    <string name="action_jpg">jpg</string>
+    <string name="action_mp3">MP3</string>
+    <string name="action_mp4">MP4</string>
+    <string name="tip_loading">正在加载中...</string>
+
+
+    <string-array name="array_tags">
+        <item>应用</item>
+        <item>图片</item>
+        <item>音乐</item>
+        <item>视频</item>
+    </string-array>
+
+
+</resources>
+
